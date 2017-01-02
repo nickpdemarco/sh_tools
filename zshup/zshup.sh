@@ -1,7 +1,7 @@
 #!/bin/zsh
 
 if [ "$#" -ne 1 ]; then
-	echo "Usage: up <some parent directory of current path>"
+	echo "Usage:. zshup <some parent directory of current path>"
 	exit 1
 fi
 
