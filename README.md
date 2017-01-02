@@ -4,8 +4,8 @@ A collection of simple tools for bash and zsh
 ### zshup
 How many times has this happened to you?
 
-  $ pwd
-  ~/project/directory/src/util/catpix/main/java/com/kittyflair/dev/
+    $ pwd
+    ~/project/directory/src/util/catpix/main/java/com/kittyflair/dev/
 
 You want to get to
 `~/project/directory/src/util/catpix/`
