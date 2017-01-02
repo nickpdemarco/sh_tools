@@ -4,8 +4,8 @@ A collection of simple tools for bash and zsh
 ### zshup
 How many times has this happened to you?
 
-`$ pwd`
-`~/project/directory/src/util/catpix/main/java/com/kittyflair/dev/`
+    $ pwd
+    ~/project/directory/src/util/catpix/main/java/com/kittyflair/dev/
 
 You want to get to
 `~/project/directory/src/util/catpix/`
@@ -16,7 +16,7 @@ So that means you either have to fire off a barrage of `cd ..` commands, or you 
 Either way that's too much typing. 
 
 #### Installation ####
-Download or copy over the file zshup.sh. Bear in mind that only zsh is supported for now. Put the file in a directory anywhere that works for you. Personally, I keep it in /usr/local/bin/zshupsrc. Run
+Download or copy over the file zshup.sh. Bear in mind that only zsh is supported for now. Put the file in a directory anywhere that works for you. Personally, I keep it in `/usr/local/bin/zshupsrc`. Run
 
 `$ ln -s /path/to/zshup.sh /usr/local/bin/up`
 
@@ -33,7 +33,7 @@ you would run
 
 `. up catpix`
 
-Note the need for the `.` before `up`. zshup works by running in the *same* process as the current instance of zsh. If this drives you nuts, you can easily use an alias:
+Note the need for the `.`. zshup works by running in the *same* process as the current instance of zsh. If this drives you nuts, you can easily use an alias:
 `$ alias u='. up '`
 
 And now your directory is only one character away!
