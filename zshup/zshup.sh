@@ -13,7 +13,7 @@
   fi
   
   local PWD_ARR
-  PWD_ARR=("${(@s|/|)MY_PWD}") # See http://stackoverflow.com/questions/105721/how-do-i-move-to-end-of-line-in-vim
+  PWD_ARR=("${(@s|/|)MY_PWD}") # See http://stackoverflow.com/questions/14917501/local-arrays-in-zsh 
   local DEST_PATH=""
   for i in "${PWD_ARR[@]}"; do
       if [[ $i = *[!\ ]* ]]; then # if the line has any non-whitespace
