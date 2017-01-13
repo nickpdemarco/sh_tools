@@ -1,9 +1,14 @@
 #!/bin/zsh
 # see ANONYMOUS FUNCTIONS in zsh - note the argument being passed ($1) at the close of th function
 () {
-  if [ "$#" -ne 1 ]; then
-  	echo "Usage:. zshup <some parent directory of current path>"
+  if [ "$#" -ge 2 ]; then
+  	echo "Usage:. zshup <some parent directory of current path | nothing, to navigate to root>" 
   	exit 1
+  fi
+  
+  if [ "$#" -eq 0 ]; then
+	cd
+	return 0
   fi
 
   local MY_PWD="`( cd \"$MY_PWD\" && pwd )`"  

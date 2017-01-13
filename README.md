@@ -44,6 +44,7 @@ If you have nested directories with the same name, as in
 `/path/to/file/named/file`
 zshup will select the first instance - the higher order directory. This is in need of improvement.
 
+For convenience, running zshup with no arguments behaves the same way as `cd` with no arguments: it just navigates you to your home directory, represented as `~`.
 
 
 
