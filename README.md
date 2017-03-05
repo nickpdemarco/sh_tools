@@ -16,11 +16,10 @@ So that means you either have to fire off a barrage of `cd ..` commands, or you 
 Either way that's too much typing. 
 
 #### Installation ####
-Download or copy over the file zshup.sh. Bear in mind that only zsh is supported for now. Put the file in a directory anywhere that works for you. Personally, I keep it in `/usr/local/bin/zshupsrc`. Run
+Download or copy over the file zshup.sh. Bear in mind that only zsh is supported for now. Put the file in a directory anywhere that works for you. Personally, I keep it in `/usr/local/bin/zshupsrc`. You can run:
 
-`$ ln -s /path/to/zshup.sh /usr/local/bin/up`
-
-To create a symlink called `up`.
+`$ mv /path/to/zshup.sh /usr/local/bin/up`
+`$ chmod +x /usr/local/bin/up`
 
 #### Usage ####
 Back to our earlier example, if you wanted to get from
